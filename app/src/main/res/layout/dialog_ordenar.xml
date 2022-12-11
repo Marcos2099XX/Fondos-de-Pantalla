@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="325dp"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/OrdenarTXT"
+        android:text="@string/OrdenarTXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:gravity="center"
+
+        />
+
+    <!--animacion-->
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="ordenar.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <Button
+        android:id="@+id/Dos_columnas"
+        android:text="@string/Dos_columnas"
+        android:background="@drawable/btn_personalizado"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Tres_columnas"
+        android:text="@string/Tres_columnas"
+        android:background="@drawable/btn_personalizado"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

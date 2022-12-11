@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671683033949",
+    "project_id": "fondos-de-pantalla-fb69d",
+    "storage_bucket": "fondos-de-pantalla-fb69d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671683033949:android:5a7ef5f2f8e1e42cdbc6b4",
+        "android_client_info": {
+          "package_name": "com.marcos2099x.fondos_de_pantalla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671683033949-lg2vgah0igq6vdts0bq0onqrkp0pg683.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marcos2099x.fondos_de_pantalla",
+            "certificate_hash": "f9631574a37e99a1b170dc02dffb73078a3e81ad"
+          }
+        },
+        {
+          "client_id": "671683033949-29nusp16knnmv8rtjco6dr7sk1chfie1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ5uxP9AWAbn-jtcKI6j2mPpjC-GF8ADU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671683033949-29nusp16knnmv8rtjco6dr7sk1chfie1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

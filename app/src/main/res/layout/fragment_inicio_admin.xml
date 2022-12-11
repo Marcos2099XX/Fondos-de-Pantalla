@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".FragmentosAdministrador.InicioAdmin">
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="10dp">
+
+       <TextView
+           android:text="@string/Eligeunacategoriatxt"
+           android:textColor="#000"
+           android:gravity="center"
+           android:textSize="25sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <!--Fila 1-->
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:weightSum="2">
+
+           <!--Peliculas-->
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1">
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/peliculas"/>
+
+               <Button
+                   android:id="@+id/Peliculas"
+                   android:text="@string/Peliculas"
+                   android:background="@drawable/btn_personalizado"
+                   android:textColor="#fff"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+           <!--Series-->
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1">
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/seies"/>
+
+               <Button
+                   android:id="@+id/Series"
+                   android:text="@string/Series"
+                   android:background="@drawable/btn_personalizado"
+                   android:textColor="#fff"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="5dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+       <!--Fila 2-->
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10dp"
+           android:weightSum="2">
+
+
+           <!--Musica-->
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1">
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/musica"/>
+
+               <Button
+                   android:id="@+id/Musica"
+                   android:text="@string/Musica"
+                   android:background="@drawable/btn_personalizado"
+                   android:textColor="#fff"
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+           <!--Videojuegos-->
+           <androidx.appcompat.widget.LinearLayoutCompat
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1">
+
+               <androidx.appcompat.widget.AppCompatImageView
+                   android:layout_width="180dp"
+                   android:layout_height="180dp"
+                   android:src="@drawable/videojuegos"/>
+
+               <Button
+                   android:id="@+id/Videojuegos"
+                   android:text="@string/Videojuegos"
+                   android:background="@drawable/btn_personalizado"
+                   android:textColor="#fff"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginStart="5dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+
+           </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+</ScrollView>
